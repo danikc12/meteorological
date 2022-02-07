@@ -102,12 +102,15 @@
 4. Obtener más datos
 
 	4.1 - Descargar datos de AEMET
-	Hemos utilizado el dataset de la categoría “climatologías diarias”, 
-	de la estación de Sevilla - Aeropuerto, obtenidos de la página oficial de 
-	OpenData de la AEMET. 
+	
+	Hemos utilizado el dataset de la categoría “Climatologías Diarias” dentro de
+	Valores Climatológicos, nosotros en concreto hemos usado de la estación de Sevilla - Aeropuerto, 
+	
+	Enlace obtenidos de la página oficial de  OpenData de la AEMET:
 	https://opendata.aemet.es/centrodedescargas/productosAEMET
 
 	4.2 - Usamos JSONaCSV.ipynb
+	
 	Ejecutamos este archivo con Jupyter Notebook que usa Python y su librería
 	Pandas para filtrar los datos para obtener sólo los datos que vamos a usar.
 	Solo hay que modificar los nombres de los archivos que vamos a usar.
