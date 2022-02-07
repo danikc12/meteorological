@@ -76,22 +76,38 @@
 
 3. Cómo usar la aplicación de gráficas
 
-	2.1 - Abrir Visual Studio:
+	3.1 - Abrir Visual Studio:
 
 	Cargar el directorio con todos los archivos
 
-	2.2 - Seleccionar Grafica.hs:
+	3.2 - Seleccionar Grafica.hs:
 
 	Una vez seleccionado correctamente Grafica.hs, pulsar en Load GHCi
 
-	2.3 - Ejecutar la función figura:
+	3.3 - Ejecutar la función figura:
 
 	En el terminal escribir "figura" y pulsar enter.
 	Nos pedirá darle un nombre al archivo donde se guardarán 
 	los resultados	
 
-	2.4 - Cerrar el programa:
+	3.4 - Cerrar el programa:
 
 	La aplicación ha generado la imagen y se ha guardado con el nombre
 	que hemos introducido. Para terminar pulsando enter o directamente 
 	cerrando Visual Studio.
+	
+	
+===========================================================================
+
+4. Obtener más datos
+
+	4.1 - Descargar datos de AEMET
+	Hemos utilizado el dataset de la categoría “climatologías diarias”, 
+	de la estación de Sevilla - Aeropuerto, obtenidos de la página oficial de 
+	OpenData de la AEMET. 
+	https://opendata.aemet.es/centrodedescargas/productosAEMET
+
+	4.2 - Usamos JSONaCSV.ipynb
+	Ejecutamos este archivo con Jupyter Notebook que usa Python y su librería
+	Pandas para filtrar los datos para obtener sólo los datos que vamos a usar.
+	Solo hay que modificar los nombres de los archivos que vamos a usar.
